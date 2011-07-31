@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.5.2)  31 JUL 2011 18:30
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.5.2)  31 JUL 2011 22:38
 entering extended mode
  %&-line parsing enabled.
 **\input emacsCheatsheet.tex
@@ -256,6 +256,15 @@ File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OML/cmr/bx/n' in size <10.95> not available
 (Font)              Font shape `OML/cmm/b/it' tried instead on input line 39.
 
+Overfull \hbox (70.21672pt too wide) in paragraph at lines 86--87
+[]\OT1/cmr/m/n/10.95 Autocomplete kinda http://tulrich.com/geekstuff/emacs.html
+ 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 94.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 94.
 
 LaTeX Warning: Rerun to correct eqparbox widths.
 
@@ -263,11 +272,11 @@ LaTeX Warning: Rerun to correct eqparbox widths.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./emacsCheatsheet.aux) ) 
 Here is how much of TeX's memory you used:
- 3760 strings out of 495061
- 56043 string characters out of 1182622
- 128698 words of memory out of 3000000
- 6895 multiletter control sequences out of 15000+50000
- 8961 words of font info for 31 fonts, out of 3000000 for 9000
+ 3774 strings out of 495061
+ 56217 string characters out of 1182622
+ 129697 words of memory out of 3000000
+ 6904 multiletter control sequences out of 15000+50000
+ 10232 words of font info for 35 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  38i,8n,36p,288b,365s stack positions out of 5000i,500n,10000p,200000b,50000s
 <
@@ -276,10 +285,11 @@ texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texli
 ve/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-texlive/fonts/
 type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-texlive/fonts/type1/publ
 ic/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmti10.pfb>
-Output written on emacsCheatsheet.pdf (1 page, 80024 bytes).
+cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb
+>
+Output written on emacsCheatsheet.pdf (1 page, 95669 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
+ 68 PDF objects out of 1000 (max. 8388607)
+ 10 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
