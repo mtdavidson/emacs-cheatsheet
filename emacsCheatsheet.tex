@@ -1,0 +1,86 @@
+\documentclass[11pt,a4paper]{article}
+
+\def\eqlistlabel#1{\bfseries#1}
+
+\usepackage[cm]{fullpage}
+\usepackage{multicol}
+\usepackage{eqlist}
+\usepackage[pdftex]{hyperref}
+\usepackage{nopageno}
+
+\setcounter{secnumdepth}{-1} 
+\hypersetup{
+  pdfauthor={Mark Davidson},
+  pdftitle={Emacs Cheatsheet},
+  pdfstartview={FitH}
+}
+
+\begin{document}
+
+\begin{center}
+  {
+    \huge \bfseries Emacs Cheatsheet
+    \vspace{0.5 cm}
+  }
+\end{center}
+
+\begin{multicols}{2}
+
+\section{Cursor Positioning}
+\begin{eqlist}
+\item[C-f] Forward one character
+\item[C-b] Back one character
+\item[C-p] Up one character
+\item[C-n] Down one character
+\item[M-b] Back one word
+\item[M-f] Forward one word
+\item[C-a] Beginning of line
+\item[C-e] End of line
+\item[M-\textless] Start of document
+\item[M-\textgreater] End of document
+\item[M-v] Page up
+\item[C-v] Page down
+\item[C-l] Middle / Top / Bottom
+\item[C-u 20 C-n] Advance 20 lines
+\end{eqlist}
+
+\section{Search and Replace}
+\begin{eqlist}
+\item[C-s \textit{patterntext}] Search forward for
+  \textit{patterntext}
+\item[C-r \textit{patterntext}] Search backwards for
+  \textit{patterntext}
+\end{eqlist}
+
+\section{Quitting}
+\begin{eqlist}
+\item[C-x C-c] Quit
+\item[C-g] Abort any command in progress
+\end{eqlist}
+
+\section{Regions}
+\begin{eqlist}
+\item[C-SPC] Set mark at cursor
+\item[C-w] Kill region
+\item[M-w] Copy region to kill ring
+\item[C-y] Yank back last thing killed
+
+\end{eqlist}
+
+\section{Help}
+\begin{eqlist}
+\item[C-h t] See the tutorial
+\item[C-h a \textit{topic}] See help about \textit{topic}
+\end{eqlist}
+
+\section{Loading and Saving}
+\begin{eqlist}
+\item[C-x C-f \textit{filename}] Create new \textit{filename} for
+  editing or load in \textit{filename} for editing
+\item[C-x C-w \textit{filename}] Write as filename
+\item[C-x C-s] Save 
+\end{eqlist}
+
+\end{multicols}
+
+\end{document}
