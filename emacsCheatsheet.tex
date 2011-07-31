@@ -26,20 +26,15 @@
 
 \begin{multicols}{2}
 
-\section{Cursor Positioning}
+\section{Motion}
 \begin{eqlist}
-\item[C-f] Forward one character
-\item[C-b] Back one character
-\item[C-p] Up one character
-\item[C-n] Down one character
-\item[M-b] Back one word
-\item[M-f] Forward one word
-\item[C-a] Beginning of line
-\item[C-e] End of line
+\item[C-f / C-b] Forward / Back one character
+\item[C-p / C-n] Up / Down one character
+\item[M-f / M-b] Forward / Back one word
+\item[C-a / C-e] Beginning / End of line
 \item[M-\textless] Start of document
 \item[M-\textgreater] End of document
-\item[M-v] Page up
-\item[C-v] Page down
+\item[M-v / C-v] Up / Down Page
 \item[C-l] Middle / Top / Bottom
 \item[C-u 20 C-n] Advance 20 lines
 \end{eqlist}
@@ -64,19 +59,29 @@
 \item[C-w] Kill region
 \item[M-w] Copy region to kill ring
 \item[C-y] Yank back last thing killed
-
 \end{eqlist}
 
 \section{Help}
 \begin{eqlist}
-\item[C-h t] See the tutorial
 \item[C-h a \textit{topic}] See help about \textit{topic}
+\item[C-h c] Show command name on message line
+\item[C-h f] Describe function 
+\item[C-h i] Info browser
+\item[C-h k] Show command documentation
+\item[C-h t] See the tutorial
 \end{eqlist}
 
-\section{Loading and Saving}
+\section{Buffer \& Window Operations}
 \begin{eqlist}
+\item[C-x 0] Delete window
+\item[C-x 1] Delete other
+\item[C-x 2] Create new horizontal window
+\item[C-x 3] Create new vertical window
+\item[C-x b] Select buffer 
+\item[C-x C-b] List buffers
 \item[C-x C-f \textit{filename}] Create new \textit{filename} for
   editing or load in \textit{filename} for editing
+\item[C-x C-o] Cursor to next window
 \item[C-x C-w \textit{filename}] Write as filename
 \item[C-x C-s] Save
 \end{eqlist}
