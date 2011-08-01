@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.5.2)  31 JUL 2011 23:21
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.5.2)  1 AUG 2011 22:14
 entering extended mode
  %&-line parsing enabled.
 **\input emacsCheatsheet.tex
@@ -243,50 +243,49 @@ LaTeX Info: Redefining \pageref on input line 18.
 
 \AtBeginShipoutBox=\box52
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 31.
+(Font)              <10.95> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 31.
+(Font)              <8> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 31.
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 35.
+(Font)              <6> on input line 34.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 38.
 
 (/usr/share/texmf-texlive/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/bx/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/b/it' tried instead on input line 35.
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 38.
 
-Overfull \hbox (70.21672pt too wide) in paragraph at lines 91--92
-[]\OT1/cmr/m/n/10.95 Autocomplete kinda http://tulrich.com/geekstuff/emacs.html
- 
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+[]\OT1/cmr/m/n/10.95 hippie-expand - Au-to-com-plete kinda
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 99.
+(Font)              <9> on input line 104.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 99.
+(Font)              <5> on input line 104.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./emacsCheatsheet.aux) ) 
 Here is how much of TeX's memory you used:
- 3775 strings out of 495061
- 56229 string characters out of 1182622
- 132714 words of memory out of 3000000
- 6905 multiletter control sequences out of 15000+50000
- 10232 words of font info for 35 fonts, out of 3000000 for 9000
+ 3777 strings out of 495061
+ 56259 string characters out of 1182622
+ 131734 words of memory out of 3000000
+ 6907 multiletter control sequences out of 15000+50000
+ 10530 words of font info for 36 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 38i,8n,36p,288b,365s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,8n,36p,288b,367s stack positions out of 5000i,500n,10000p,200000b,50000s
 <
 /usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texli
 ve/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-texlive/fonts/
 type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-texlive/fonts/type1/publ
 ic/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb
->
-Output written on emacsCheatsheet.pdf (1 page, 99165 bytes).
+cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on emacsCheatsheet.pdf (1 page, 111521 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
+ 75 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

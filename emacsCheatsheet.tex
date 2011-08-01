@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper]{article}
+\documentclass[11pt,landscape,a4paper]{article}
 
 \def\eqlistlabel#1{\bfseries#1}
 
@@ -17,14 +17,17 @@
 
 \begin{document}
 
+\begin{multicols}{3}
+
 \begin{center}
   {
     \huge \bfseries Emacs Cheatsheet
-    \vspace{0.5 cm}
+    %\vspace{0.5 cm}
+  }\\
+  {
+    (\large for version 23.2+)
   }
 \end{center}
-
-\begin{multicols}{2}
 
 \section{Motion}
 \begin{eqlist}
@@ -34,7 +37,7 @@
 \item[C-a / C-e] Beginning / End of line
 \item[M-\textless] Start of document
 \item[M-\textgreater] End of document
-\item[M-v / C-v] Up / Down Page
+\item[M-v / C-v] Up / Down Page0
 \item[C-l] Middle / Top / Bottom
 \item[C-u 20 C-n] Advance 20 lines
 \end{eqlist}
@@ -71,12 +74,14 @@
 \item[C-h t] See the tutorial
 \end{eqlist}
 
-\section{Buffer \& Window Operations}
+\section{Buffer, Frames \& Windows}
 \begin{eqlist}
 \item[C-x 0] Delete window
 \item[C-x 1] Delete other
 \item[C-x 2] Create new horizontal window
 \item[C-x 3] Create new vertical window
+\item[C-x 5 1] Delete other frames
+\item[C-x 5 2] Make new frame
 \item[C-x b] Select buffer 
 \item[C-x C-b] List buffers
 \item[C-x C-f \textit{filename}] Create new \textit{filename} for
@@ -88,14 +93,14 @@
 
 \section{Magic Commands \textit{Rename this}}
 \begin{eqlist}
-\item[M-/] Autocomplete kinda http://tulrich.com/geekstuff/emacs.html
+\item[M-/] hippie-expand - Autocomplete kinda http://tulrich.com/geekstuff/emacs.html
 \end{eqlist}
 
 \end{multicols}
 
 \let\thefootnote\relax\footnotetext{
   Inspiration from Emacs Cheat Sheet (
-  https://ccrma.stanford.edu/guides/package/emacs/emacs.html )
+  https://ccrma.stanford.edu/guides/package/emacs/emacs.html ),  Reference Card (http://refcards.com/docs/wingb/xemacs/xemacs-refcard-a4.pdf)
 }
 
 \end{document}
